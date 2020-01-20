@@ -7,16 +7,18 @@ import { ElementsModule } from "./elements/elements.module";
 import { CollectionsModule } from "./collections/collections.module";
 import { ViewsModule } from "./views/views.module";
 import { ModulesModule } from "./modules/modules.module";
+import { HomeComponent } from "./home/home.component";
+import { NotFoundComponent } from "./not-found/not-found.component";
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomeComponent, NotFoundComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     ElementsModule,
     CollectionsModule,
     ViewsModule,
-    ModulesModule
+    ModulesModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
