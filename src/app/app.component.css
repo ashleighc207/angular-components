@@ -16,12 +16,13 @@
 
 .link {
   text-decoration: none;
-  color: #119283;
+  color: #333333;
   padding: 10px 15px;
 }
 
 .link.active {
   background: #11928333;
+  border-bottom: 2px solid #119283;
 }
 
 .content-container {
