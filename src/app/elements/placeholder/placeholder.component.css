@@ -1,0 +1,61 @@
+.placeholder-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.square {
+  height: 45px;
+  width: 50px;
+  background-color: rgba(33, 33, 33, 0.2);
+}
+
+.line {
+  height: 10px;
+  display: flex;
+  margin-bottom: 10px;
+  background-color: rgba(33, 33, 33, 0.2);
+}
+
+.square-container {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.square-line-container {
+  display: flex;
+  width: 100%;
+  flex: 1 1 auto;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.line.xxl {
+  width: 80%;
+}
+
+.line.xl {
+  width: 65%;
+}
+
+.line.l {
+  width: 60%;
+}
+
+.line.m {
+  width: 50%;
+}
+
+.line.s {
+  width: 25%;
+}
+
+.heading-two {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-bottom: 20px;
+}
